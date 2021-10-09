@@ -6,12 +6,12 @@
 
 ## Install
 
-All instructions can be found at [INSTALL.MD](./INSTALL.MD)
+All instructions can be found at [INSTALL.MD](./INSTALL.md)
 ## Team
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/Aryan20/DarkSur-gtk-theme/graphs/contributors).
+This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/Aryan20/DraculaSur-gtk-theme/graphs/contributors).
 
-[![Zeno Rocha](https://github.com/Aryan20.png?size=100)](https://github.com/Aryan20) |
+[![Aryan Kaushik](https://github.com/Aryan20.png?size=100)](https://github.com/Aryan20) |
 --- |
 [Aryan Kaushik](https://github.com/Aryan20) |
 
