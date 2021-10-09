@@ -1,8 +1,8 @@
-<h1 align="center"> WhiteSur GTK Theme </h1>
-<p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/macbook.png"/> </p>
+<h1 align="center"> DraculaSur GTK Theme </h1>
+<p align="center"> <img src="https://github.com/vinceliuice/DraculaSur-gtk-theme/blob/pictures/pictures/macbook.png"/> </p>
 
 <br>
-<p align="center"> <b> A macOS BigSur-like theme for your GTK apps </b> </p>
+<p align="center"> <b> A macOS BigSur-like theme for your GTK apps but with Dracula colors</b> </p>
 <br>
 
 # Installation is easy!
@@ -21,7 +21,7 @@
 - optipng                `(optional for asset rendering)`
 - inkscape               `(optional for asset rendering)`
 
-Don't worry, WhiteSur installer already provides all of those dependencies.
+Don't worry, DraculaSur installer already provides all of those dependencies.
 </details>
 
 <details> <summary> Recommended GNOME Shell extensions </summary>
@@ -38,7 +38,7 @@ Don't worry, WhiteSur installer already provides all of those dependencies.
 ## Quick install
 
 ### Installing from source
-Run `./install.sh` to install the default WhiteSur GTK theme pack which includes
+Run `./install.sh` to install the default DraculaSur GTK theme pack which includes
 GNOME Shell (Pantheon), Cinnamon, XFWM (XFCE), Metacity, and Plank themes.
 
 ## There's so many customizations you can do!
@@ -51,7 +51,7 @@ Usage:  `./install.sh [OPTIONS...]`
  Set destination directory. Default is '/home/vince/.themes'
 
   -n, --name NAME
- Set theme name. Default is 'WhiteSur'
+ Set theme name. Default is 'DraculaSur'
 
   -o, --opacity [normal|solid]
  Set theme opacity variants. Repeatable. Default is all variants
@@ -108,7 +108,7 @@ Usage:  `./install.sh [OPTIONS...]`
  Meant for developers: ignore any confirm prompt and params become more strict.
 
   -r, --remove, -u, --uninstall
- Remove all installed WhiteSur themes.
+ Remove all installed DraculaSur themes.
 
   -h, --help
  Show this help.
@@ -117,7 +117,6 @@ Usage:  `./install.sh [OPTIONS...]`
 </details>
 
 ### <p align="center"> <b> Change theme color and accent </b> </p>
-<p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/colors-themes.png"/> </p>
 
 #### Install theme color
 Parameter: `--color` `-c` (repeatable)
@@ -141,7 +140,6 @@ Example:
 ```
 
 ### <p align="center"> <b> Change Nautilus sidebar minimum width </b> </p>
-<p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/sidebars.png"/> </p>
 
 Parameter: `--sidebar` `-s`
 
@@ -149,7 +147,7 @@ Example: `./install.sh -s 220`
 
 
 ### <p align="center"> <b> Change GNOME Shell 'Activities' icon </b> </p>
-<p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/icons.png"/> </p>
+<p align="center"> <img src="https://github.com/vinceliuice/DraculaSur-gtk-theme/blob/pictures/pictures/icons.png"/> </p>
 
 Parameter: `--icon` `-i`
 
@@ -157,7 +155,7 @@ Example: `./install.sh -i fedora`
 
 
 ### <p align="center"> <b> Change Nautilus style </b> </p>
-<p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/nautilus.png"/> </p>
+<p align="center"> <img src="https://github.com/vinceliuice/DraculaSur-gtk-theme/blob/pictures/pictures/nautilus.png"/> </p>
 
 Parameter: `--nautilus-style` `-N`
 
@@ -177,49 +175,49 @@ Usage:  `./tweaks.sh [OPTIONS...]`
 
 ```bash
 -f, --firefox [default|monterey]
-Install 'WhiteSur|Monterey' theme for Firefox and connect it to the current Firefox profiles. Default is WhiteSur
+Install 'DraculaSur|Monterey' theme for Firefox and connect it to the current Firefox profiles. Default is DraculaSur
 
 -e, --edit-firefox
-Edit 'WhiteSur' theme for Firefox settings and also connect the theme to the current Firefox profiles.
+Edit 'DraculaSur' theme for Firefox settings and also connect the theme to the current Firefox profiles.
 
 -F, --flatpak
-Connect 'WhiteSur' theme to Flatpak.
+Connect 'DraculaSur' theme to Flatpak.
 
 -s, --snap
-Connect 'WhiteSur' theme the currently installed snap apps.
+Connect 'DraculaSur' theme the currently installed snap apps.
 
 -g, --gdm
-Install 'WhiteSur' theme for GDM. Requires to run this shell as root
+Install 'DraculaSur' theme for GDM. Requires to run this shell as root
 
 -d, --dash-to-dock
-Install 'WhiteSur' theme for Dash to Dock and connect it to the current Dash to Dock installation(s).
+Install 'DraculaSur' theme for Dash to Dock and connect it to the current Dash to Dock installation(s).
 
 -N, --no-darken
-Don't darken 'WhiteSur' GDM theme background image.
+Don't darken 'DraculaSur' GDM theme background image.
 
 -n, --no-blur
-Don't blur 'WhiteSur' GDM theme background image.
+Don't blur 'DraculaSur' GDM theme background image.
 
 -b, --background [default|blank|IMAGE_PATH]
-Set 'WhiteSur' GDM theme background image. Default is BigSur-like wallpaper
+Set 'DraculaSur' GDM theme background image. Default is BigSur-like wallpaper
 
 -o, --opacity [normal|solid]
-Set 'WhiteSur' GDM theme opacity variants. Default is 'normal'
+Set 'DraculaSur' GDM theme opacity variants. Default is 'normal'
 
 -c, --color [light|dark]
-Set 'WhiteSur' GDM and Dash to Dock theme color variants. Default is 'light'
+Set 'DraculaSur' GDM and Dash to Dock theme color variants. Default is 'light'
 
 -t, --theme [default|blue|purple|pink|red|orange|yellow|green|grey]
-Set 'WhiteSur' GDM theme accent color. Default is BigSur-like theme
+Set 'DraculaSur' GDM theme accent color. Default is BigSur-like theme
 
 -p, --panel-opacity [default|30|45|60|75]
-Set 'WhiteSur' GDM (GNOME Shell) theme panel transparency. Default is 15%
+Set 'DraculaSur' GDM (GNOME Shell) theme panel transparency. Default is 15%
 
 -P, --panel-size [default|smaller|bigger]
-Set 'WhiteSur' Gnome shell panel height size. Default is 32px
+Set 'DraculaSur' Gnome shell panel height size. Default is 32px
 
 -i, --icon [standard|simple|gnome|ubuntu|arch|manjaro|fedora|debian|void|opensuse|popos|mxlinux|zorin]
-Set 'WhiteSur' GDM (GNOME Shell) 'Activities' icon. Default is 'standard'
+Set 'DraculaSur' GDM (GNOME Shell) 'Activities' icon. Default is 'standard'
 
 -r, --remove, --revert
 Revert to the original themes, do the opposite things of install and connect.
@@ -236,7 +234,7 @@ Show this help.
 ## There's more themes you can try!
 ### <p align="center"> <b> Install and edit Firefox theme </b> </p>
 <p align="center"> <a href="src/other/firefox">
-<img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/firefox-whitesur.png"/>
+<img src="https://github.com/vinceliuice/DraculaSur-gtk-theme/blob/pictures/pictures/firefox-whitesur.png"/>
 </a> </p>
 
 #### Install Firefox theme
@@ -257,7 +255,7 @@ Example:
 
 #### Use Monterey style
 <p align="center"> <a href="src/other/firefox">
-<img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/firefox-monterey.png"/>
+<img src="https://github.com/vinceliuice/DraculaSur-gtk-theme/blob/pictures/pictures/firefox-monterey.png"/>
 </a> </p>
 
 Run:
@@ -267,7 +265,7 @@ Run:
 ```
 
 ### <p align="center"> <b> Install and customize Dash to Dock theme </b> </p>
-<p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/dash-to-dock.png"/> </p>
+<p align="center"> <img src="https://github.com/vinceliuice/DraculaSur-gtk-theme/blob/pictures/pictures/dash-to-dock.png"/> </p>
 
 #### Install Dash to Dock theme
 Parameter: `--dash-to-dock` `-d`
@@ -280,7 +278,7 @@ Parameter: `--color` `-c`
 Example: `./tweaks.sh -d -c dark`
 
 ### <p align="center"> <b> Install and customize GDM theme </b> </p>
-<p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/gdm.png"/> </p>
+<p align="center"> <img src="https://github.com/vinceliuice/DraculaSur-gtk-theme/blob/pictures/pictures/gdm.png"/> </p>
 
 #### Install GDM theme
 Parameter: `--gdm` `-g` (requires to be run as root)
@@ -323,59 +321,24 @@ You can do [the similar customization features in `./install.sh`](#theres-so-man
 like changing theme color (dark and light variant) and accent, GNOME Shell
 'Activities' icon, etc. related to GDM. Run `./tweaks.sh -h` to explore!
 
-## Using WhiteSur theme on app sandboxing platforms
-<p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/sandboxes.png"/> </p>
+## Using DraculaSur theme on app sandboxing platforms
+<p align="center"> <img src="https://github.com/vinceliuice/DraculaSur-gtk-theme/blob/pictures/pictures/sandboxes.png"/> </p>
 
-### <p align="center"> <b> Connect WhiteSur theme to Flatpak </b> </p>
+### <p align="center"> <b> Connect DraculaSur theme to Flatpak </b> </p>
 Parameter: `--flatpak` `-F`
 
 Example: `./tweaks.sh -F`
 
-### <p align="center"> <b> Connect WhiteSur theme to your Snap apps </b> </p>
+### <p align="center"> <b> Connect DraculaSur theme to your Snap apps </b> </p>
 Parameter: `--snap` `-s`
 
 Example: `./tweaks.sh -s`
 
 Note:
 
-> This can only connect WhiteSur theme to your currently installed Snap
+> This can only connect DraculaSur theme to your currently installed Snap
 > apps. You may need to run this command again to connect to your newly installed
 > Snap apps
-
-# Other recommended stuffs
-## WhiteSur KDE Theme
-<p align="center"> <a href="https://github.com/vinceliuice/WhiteSur-kde">
-  <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/whitesur-kde-theme.png"/>
-</a> </p>
-<br>
-<p align="center"> <a href="https://github.com/vinceliuice/WhiteSur-kde">
-  <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/download-button.svg"/>
-</a> </p>
-<br>
-
-## WhiteSur Icon Theme
-<p align="center"> <a href="https://github.com/vinceliuice/WhiteSur-icon-theme">
-  <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/whitesur-icon-theme.png"/>
-</a> </p>
-<br>
-<p align="center"> <a href="https://github.com/vinceliuice/WhiteSur-icon-theme">
-  <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/download-button.svg"/>
-</a> </p>
-<br>
-
-## WhiteSur Wallpaper
-<p align="center"> <a href="https://github.com/vinceliuice/WhiteSur-gtk-theme/tree/wallpapers">
-  <img class="image" src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/wallpapers/1080p/WhiteSur-light.png"/>
-</a> </p>
-<br>
-<p align="center"> <a href="https://github.com/vinceliuice/WhiteSur-gtk-theme/tree/wallpapers">
-  <img class="image" src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/wallpapers/1080p/Monterey-light.png"/>
-</a> </p>
-<br>
-<p align="center"> <a href="https://github.com/vinceliuice/WhiteSur-gtk-theme/tree/wallpapers">
-  <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/download-button.svg"/>
-</a> </p>
-<br>
 
 # Technical details and getting involved
 Please go read [CONTRIBUTING.md](.github/CONTRIBUTING.md) for more info
