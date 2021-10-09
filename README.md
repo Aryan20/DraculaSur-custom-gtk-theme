@@ -1,5 +1,5 @@
 <h1 align="center"> DraculaSur GTK Theme </h1>
-<p align="center"> <img src="https://github.com/vinceliuice/DraculaSur-gtk-theme/blob/pictures/pictures/macbook.png"/> </p>
+<p align="center"> <img src="https://github.com/Aryan20/WhiteSur-gtk-theme/blob/master/screenshot/preview.png"/> </p>
 
 <br>
 <p align="center"> <b> A macOS BigSur-like theme for your GTK apps but with Dracula colors</b> </p>
@@ -147,7 +147,7 @@ Example: `./install.sh -s 220`
 
 
 ### <p align="center"> <b> Change GNOME Shell 'Activities' icon </b> </p>
-<p align="center"> <img src="https://github.com/vinceliuice/DraculaSur-gtk-theme/blob/pictures/pictures/icons.png"/> </p>
+<p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/icons.png"/> </p>
 
 Parameter: `--icon` `-i`
 
@@ -155,7 +155,7 @@ Example: `./install.sh -i fedora`
 
 
 ### <p align="center"> <b> Change Nautilus style </b> </p>
-<p align="center"> <img src="https://github.com/vinceliuice/DraculaSur-gtk-theme/blob/pictures/pictures/nautilus.png"/> </p>
+<p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/nautilus.png"/> </p>
 
 Parameter: `--nautilus-style` `-N`
 
@@ -234,7 +234,7 @@ Show this help.
 ## There's more themes you can try!
 ### <p align="center"> <b> Install and edit Firefox theme </b> </p>
 <p align="center"> <a href="src/other/firefox">
-<img src="https://github.com/vinceliuice/DraculaSur-gtk-theme/blob/pictures/pictures/firefox-whitesur.png"/>
+<img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/firefox-whitesur.png"/>
 </a> </p>
 
 #### Install Firefox theme
@@ -255,7 +255,7 @@ Example:
 
 #### Use Monterey style
 <p align="center"> <a href="src/other/firefox">
-<img src="https://github.com/vinceliuice/DraculaSur-gtk-theme/blob/pictures/pictures/firefox-monterey.png"/>
+<img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/firefox-monterey.png"/>
 </a> </p>
 
 Run:
@@ -265,7 +265,7 @@ Run:
 ```
 
 ### <p align="center"> <b> Install and customize Dash to Dock theme </b> </p>
-<p align="center"> <img src="https://github.com/vinceliuice/DraculaSur-gtk-theme/blob/pictures/pictures/dash-to-dock.png"/> </p>
+<p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/dash-to-dock.png"/> </p>
 
 #### Install Dash to Dock theme
 Parameter: `--dash-to-dock` `-d`
@@ -278,7 +278,7 @@ Parameter: `--color` `-c`
 Example: `./tweaks.sh -d -c dark`
 
 ### <p align="center"> <b> Install and customize GDM theme </b> </p>
-<p align="center"> <img src="https://github.com/vinceliuice/DraculaSur-gtk-theme/blob/pictures/pictures/gdm.png"/> </p>
+<p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/gdm.png"/> </p>
 
 #### Install GDM theme
 Parameter: `--gdm` `-g` (requires to be run as root)
