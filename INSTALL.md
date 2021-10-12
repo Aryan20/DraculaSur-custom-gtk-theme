@@ -168,8 +168,8 @@ Usage:  `./tweaks.sh [OPTIONS...]`
 <details> <summary> Options </summary>
 
 ```bash
--f, --firefox [default|monterey]
-Install 'DraculaSur|Monterey' theme for Firefox and connect it to the current Firefox profiles. Default is DraculaSur
+-f, --firefox [default|monterey|alt]
+Install 'DraculaSur|Monterey|Monterey-Alt' theme for Firefox and connect it to the current Firefox profiles. Default is DraculaSur
 
 -e, --edit-firefox
 Edit 'DraculaSur' theme for Firefox settings and also connect the theme to the current Firefox profiles.
